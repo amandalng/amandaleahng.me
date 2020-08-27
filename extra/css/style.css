@@ -31,7 +31,7 @@ body {
   }
 
   .body.container h6 {
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 0 !important;
   }
 
@@ -158,6 +158,10 @@ body {
     margin-bottom: 24px;
   }
 
+  .about-header {
+    padding-top: 28px;
+  }
+
   .portfolio-header {
     padding-top: 160px;
   }
@@ -167,7 +171,7 @@ body {
   }
 
   .resume-btn {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   input[type=text] {

@@ -61,12 +61,12 @@
 .in-text-btn-long:after {
   background-image: url(../../images/highlight.png);
   background-repeat: no-repeat;
-  background-size: 96% 20px;
+  background-size: 88% 16px;
   position: absolute;
   content: "";
   height: 100%;
   width: 100%;
-  bottom: -8px;
+  bottom: -6px;
   right: 4px;
   z-index: -1;
   transition: all 1s;

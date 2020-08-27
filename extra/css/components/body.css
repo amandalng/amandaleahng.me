@@ -3,7 +3,7 @@
   width: -webkit-fit-content;
   width: fit-content;
   margin: auto;
-  padding-top: 8vh;
+  padding-top: 12vh;
 }
 
 .body-content {
@@ -37,3 +37,10 @@
   /*text-align: justify;*/
 }
 
+.about-header {
+  padding-top: 60px;
+}
+
+.portfolio-header {
+  padding-top: 148px;
+}
