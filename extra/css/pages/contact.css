@@ -1,5 +1,8 @@
 form {
   position: relative;
+  padding: 20px auto;
+  margin: 0px auto;
+  text-align: left;
 }
 
 input[type=text] {
@@ -40,6 +43,7 @@ label {
   color: #4B4B4B;
   font-size: 12px;
   align-content: start;
+  margin-top: 4px;
 }
 
 input[type=submit] {
@@ -97,9 +101,9 @@ input[type=submit]:hover:after {
     width: 300px;
     color: #FB726E;
     border: none;
-    padding: 16px 32px;
+    padding: 16px 0px;
     text-decoration: none;
-    margin: 4px 2px;
+    margin: 4px 0px;
     cursor: pointer;
   }
 }
