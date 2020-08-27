@@ -1,0 +1,227 @@
+@import "components/index.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  background-color: #FFFFFF;
+  color: #4B4B4B;
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+.body {
+  flex-grow: 1;
+  color: #4B4B4B;
+  font-family: 'Karla', sans-serif;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .body.container {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .body.container h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .body.container h6 {
+    font-size: 20px;
+    padding-left: 0 !important;
+  }
+
+  .body.container p {
+    font-size: 16px;
+  }
+
+  .body-content {
+    display: block;
+  }
+
+  .body-content .body-intro h3 {
+    font-size: 24px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .body-content .body-intro h1 {
+    font-size: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .body-content .body-intro h5 {
+    font-size: 16px;
+    letter-spacing: 0.125em;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .body-content .body-intro p {
+    font-size: 12px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+
+  .body-center {
+    margin: 40px auto;
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  .header {
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    align-items: top;
+  }
+
+  .logo {
+    height: 64px;
+    width: 64px;
+  }
+
+  .home-btn {
+    display: flex;
+    align-items: center;
+    height: 64px;
+  }
+
+  .avatar-sm {
+    display: none;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 116px;
+    height: 116px;
+    margin: 0;
+    height: 64px;
+    width: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+    filter: grayscale(100%) brightness(1.15);
+  }
+
+  .navbar-title {
+    height: 64px;
+    visibility: hidden;
+  }
+
+  .footer {
+    padding: 20px;
+    display: block;
+    text-align: center;
+  }
+
+  .copyright-text {
+    visibility: hidden;
+  }
+
+  .footer-social {
+    padding: 0 8px;
+    font-size: 24px;
+    text-align: right;
+    color: #4B4B4B;
+    position: relative;
+    height: 100%;
+  }
+
+  .footer-social:hover {
+    text-decoration: none;
+    color: #4B4B4B;
+  }
+
+  .footer-social:hover:after {
+    background-image: url(../../images/highlight.png);
+    background-repeat: no-repeat;
+    background-size: 28px 12px;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    bottom: -20px;
+    right: -8px;
+    z-index: -1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+
+  .avatar-main {
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  .portfolio-header {
+    padding-top: 160px;
+  }
+
+  .contact-header {
+    padding-top: 80px;
+  }
+
+  .resume-btn {
+    font-size: 20px;
+  }
+
+  input[type=text] {
+    border: none;
+    border-bottom: 1px solid #4B4B4B;
+    width: 300px;
+    color: #4B4B4B;
+  }
+
+  textarea {
+    border: none;
+    border-bottom: 1px solid #4B4B4B;
+    width: 300px;
+    color: #4B4B4B;
+  }
+
+  input[type=submit] {
+    background-color: transparent !important;
+    width: 300px;
+    color: #FB726E;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .in-text-btn:after {
+    background-image: url(../images/highlight.png);
+    background-repeat: no-repeat;
+    background-size: 88% 12px;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    bottom: -8px;
+    right: 4px;
+    z-index: -1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+
+  .in-text-btn-large:after {
+    background-image: url(../images/highlight.png);
+    background-repeat: no-repeat;
+    background-size: 88% 20px;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    bottom: -12px;
+    right: 4px;
+    z-index: -1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+}

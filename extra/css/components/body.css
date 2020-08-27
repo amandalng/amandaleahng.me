@@ -1,0 +1,39 @@
+.body-center {
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding-top: 8vh;
+}
+
+.body-content {
+  display: flex;
+}
+
+.body-intro h3 {
+  font-size: 36px;`
+  font-weight: bold;
+  margin: 0;
+}
+
+.body-intro h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: #FB726E;
+  margin: 0px 24px;
+}
+
+.body-intro h5 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.30em;
+  margin-left: 24px;
+}
+
+.body-intro p {
+  font-size: 16px;
+  margin-left: 24px;
+  margin-top: 24px;
+  /*text-align: justify;*/
+}
+

@@ -1,0 +1,42 @@
+.avatar-main {
+  position: relative;
+  width: 256px;
+  height: 264px;
+  margin: 0;
+}
+
+.avatar-image-main {
+  height: 240px;
+  width: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: grayscale(100%) brightness(1.15);
+}
+
+.avatar-background {
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color: #FB726E;
+  opacity: 15%;
+  z-index: -1;
+  margin: 0;
+}
+
+.avatar-sm {
+  display: none;
+  position: absolute;
+  left: 30;
+  top: 40px;
+  width: 116px;
+  height: 116px;
+  margin: 0;
+  height: 108px;
+  width: 108px;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: grayscale(100%) brightness(1.15);
+}
