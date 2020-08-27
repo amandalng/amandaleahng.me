@@ -4,6 +4,6 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .about-header {
-    padding-top: 20px;
+    padding-top: 0px;
   }
 }
