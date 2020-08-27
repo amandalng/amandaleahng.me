@@ -40,3 +40,25 @@
   border-radius: 50%;
   filter: grayscale(100%) brightness(1.15);
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .avatar-main {
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  .avatar-sm {
+    display: none;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 116px;
+    height: 116px;
+    margin: 0;
+    height: 64px;
+    width: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+    filter: grayscale(100%) brightness(1.15);
+  }
+}

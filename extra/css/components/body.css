@@ -10,17 +10,17 @@
   display: flex;
 }
 
-.body-intro h3 {
-  font-size: 36px;`
-  font-weight: bold;
-  margin: 0;
-}
-
 .body-intro h1 {
   font-size: 64px;
   font-weight: bold;
   color: #FB726E;
   margin: 0px 24px;
+}
+
+.body-intro h3 {
+  font-size: 36px;`
+  font-weight: bold;
+  margin: 0;
 }
 
 .body-intro h5 {
@@ -35,12 +35,4 @@
   margin-left: 24px;
   margin-top: 24px;
   /*text-align: justify;*/
-}
-
-.about-header {
-  padding-top: 60px;
-}
-
-.portfolio-header {
-  padding-top: 148px;
 }

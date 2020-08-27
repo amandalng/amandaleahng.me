@@ -76,7 +76,7 @@
 .resume-btn {
   color: #FB726E;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   text-align:center;
   display:block;
 }
@@ -85,4 +85,40 @@
   color: #FB726E;
   text-decoration: none;
   font-weight: bold;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .resume-btn {
+    font-size: 16px;
+  }
+
+  .in-text-btn:after {
+    background-image: url(../../images/highlight.png);
+    background-repeat: no-repeat;
+    background-size: 88% 12px;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    bottom: -8px;
+    right: 4px;
+    z-index: -1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
+
+  .in-text-btn-large:after {
+    background-image: url(../../images/highlight.png);
+    background-repeat: no-repeat;
+    background-size: 88% 20px;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    bottom: -12px;
+    right: 4px;
+    z-index: -1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+  }
 }
