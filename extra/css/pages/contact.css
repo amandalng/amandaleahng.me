@@ -1,4 +1,4 @@
-  .contact-header {
+.contact-header {
     padding-top: 0px;
   }
 
@@ -50,7 +50,7 @@ label {
   margin-top: 4px;
 }
 
-input[type=submit] {
+contact-btn {
   background-color: transparent !important;
   font-size: 16px;
   width: 400px;
@@ -62,11 +62,15 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:focus {
+contact-btn:hover {
+  font-weight: bold;
+}
+
+contact-btn:focus {
   outline: none;
 }
 
-input[type=submit]:hover:after {
+contact-btn:hover:after {
   background-image: url(../../images/highlight.png);
   background-repeat: no-repeat;
   background-size: 80px 12px;
@@ -107,7 +111,7 @@ input[type=submit]:hover:after {
     color: #4B4B4B;
   }
 
-  input[type=submit] {
+  contact-btn {
     background-color: transparent !important;
     width: 300px;
     color: #FB726E;

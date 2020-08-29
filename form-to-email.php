@@ -2,7 +2,7 @@
 if(!isset($_POST['submit']))
 {
   //This page should not be accessed directly. Need to submit the form.
-  echo "error; you need to submit the form!";
+  echo "Error; you need to submit the form!";
 }
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
@@ -23,8 +23,8 @@ if(IsInjected($visitor_email))
 
 $email_from = 'amandaleahng@gmail.com';//<== update the email address
 $email_subject = "Someone wants to connect!";
-$email_body = "You have received a new message from $name.\n".
-"Message:\n $message".
+$email_body = "Hey Amanda! \n\n $name ($visitor_email) found your website and wants to connect.\n\n".
+"Message:\n $message";
 
 $to = "amandaleahng@gmail.com";//<== update the email address
 $headers = "From: $email_from \r\n";
