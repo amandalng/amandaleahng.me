@@ -50,7 +50,7 @@ label {
   margin-top: 4px;
 }
 
-contact-btn {
+.contact-btn {
   background-color: transparent !important;
   font-size: 16px;
   width: 400px;
@@ -62,15 +62,15 @@ contact-btn {
   cursor: pointer;
 }
 
-contact-btn:hover {
+.contact-btn:hover {
   font-weight: bold;
 }
 
-contact-btn:focus {
+.contact-btn:focus {
   outline: none;
 }
 
-contact-btn:hover:after {
+.contact-btn:hover:after {
   background-image: url(../../images/highlight.png);
   background-repeat: no-repeat;
   background-size: 80px 12px;
@@ -111,7 +111,7 @@ contact-btn:hover:after {
     color: #4B4B4B;
   }
 
-  contact-btn {
+  .contact-btn {
     background-color: transparent !important;
     width: 300px;
     color: #FB726E;

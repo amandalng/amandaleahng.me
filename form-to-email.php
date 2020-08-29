@@ -21,16 +21,18 @@ if(IsInjected($visitor_email))
   exit;
 }
 
-$email_from = 'amandaleahng@gmail.com';//<== update the email address
+// $email_from = "amandaleahng@gmail.com";//<== update the email address
 $email_subject = "Someone wants to connect!";
 $email_body = "Hey Amanda! \n\n $name ($visitor_email) found your website and wants to connect.\n\n".
 "Message:\n $message";
 
 $to = "amandaleahng@gmail.com";//<== update the email address
-$headers = "From: $email_from \r\n";
+$headers = "From: AmandaLeahNg <noreply@amandaleahng.me>\r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
+
 //Send the email!
 if(mail($to,$email_subject,$email_body,$headers)) {
+  echo "I'll be in touch!";
   header('Location: index.html');
 }
 //done. redirect to thank-you page.
