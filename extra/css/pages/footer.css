@@ -2,11 +2,11 @@
   padding: 40px;
   display: flex;
   align-items: flex-end;
-
 }
 
 .copyright-text {
   font-size: 12px;
+  margin-bottom: 0px;
 }
 
 .footer-social {
