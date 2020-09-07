@@ -3,7 +3,6 @@
   width: -webkit-fit-content;
   width: fit-content;
   margin: auto;
-  padding-top: 10vh;
 }
 
 .body.container h6 {
@@ -97,7 +96,6 @@
 
   .body-center {
     margin: 40px auto;
-    padding-top: 0px;
     width: 100%;
   }
 }
