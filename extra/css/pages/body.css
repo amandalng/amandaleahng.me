@@ -5,6 +5,10 @@
   margin: auto;
 }
 
+.body.container h2 {
+    font-size: 28px;
+}
+
 .body.container h6 {
   font-size: 16px;
   padding-left: 0 !important;
@@ -17,7 +21,7 @@
 }
 
 .body-intro h3 {
-  font-size: 36px;`
+  font-size: 36px;
   font-weight: bold;
   margin: 0;
 }

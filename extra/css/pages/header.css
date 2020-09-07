@@ -1,5 +1,5 @@
 .header {
-  padding: 40px;
+  padding: 32px;
   display: flex;
   align-items: top;
 }
@@ -7,7 +7,7 @@
 .home-btn {
   display: flex;
   align-items: center;
-  height: 108px;
+  height: 80px;
 }
 
 .home-btn:hover {
@@ -21,8 +21,8 @@
 }
 
 .logo {
-  height: 108px;
-  width: 108px;
+  height: 80px;
+  width: 80px;
 }
 
 .navbar {
@@ -30,7 +30,7 @@
 }
 
 .navbar-title {
-  margin: 0 16px;
+  margin: 0 24px;
   display: -webkit-flexbox;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -40,7 +40,7 @@
   -webkit-align-items: center;
   align-items: center;
   justify-content: center;
-  height: 108px;
+  height: 80px;
   font-size: 20px;
   color: #FB726E;
   letter-spacing: 0.28em;
