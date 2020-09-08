@@ -1,5 +1,5 @@
 .header {
-  padding: 32px;
+  margin: 32px;
   display: flex;
   align-items: top;
 }
@@ -49,7 +49,7 @@
 
 .nav-link {
   padding: 0px 16px;
-  margin-left: 32px;
+  margin-left: 20px;
   text-align: right;
   font-size: 16px;
   color: #FB726E;
@@ -74,7 +74,7 @@
   content: "";
   height: 100%;
   width: 100%;
-  bottom: -28px;
+  bottom: -20px;
   right: -4px;
   z-index: -1;
   transition: all 1s;
@@ -96,6 +96,11 @@
   -webkit-transition: all 1s;
 }
 
+.header button {
+  padding: 4px 0;
+  margin-top: 8px;
+}
+
 .fa-bars {
   color: #4B4B4B;
   font-size: 28px;
@@ -113,7 +118,7 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .header {
     margin: 0;
-    padding: 15px;
+    margin: 15px;
     display: flex;
     align-items: top;
   }
@@ -127,6 +132,10 @@
     display: flex;
     align-items: center;
     height: 64px;
+  }
+
+  .navbar-toggler {
+    marging: 0 auto;
   }
 
   .navbar-title {
