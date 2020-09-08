@@ -115,6 +115,11 @@
   outline: none;
 }
 
+.header button:focus {
+  color: #FB726E;
+  outline: none;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .header {
     margin: 0;
